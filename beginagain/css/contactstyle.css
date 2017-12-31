@@ -1,0 +1,176 @@
+/* Kelly Luo Period 9 */
+
+/* general */
+.clearfloat {
+	clear: both;
+}
+
+body {
+	margin: 0px auto;
+    background-image: url(images/contact/stardust.png);
+    background-repeat: repeat;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+/* header */
+
+#header {
+	margin-top: 0px;
+}
+
+/* header image */
+.headerimage {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* navbar */
+
+#navbar {
+	background-color: black;
+	height: 55px;
+    width: 100%;
+}
+
+#nav {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navbarul {
+    display: inline-block;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', 'Arial Narrow', Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbarli {
+	float: left;
+	text-align: center;
+	width: 125px;
+}
+
+#navbar a:link {
+	text-decoration: none;
+    color: #ffffff;
+}
+
+#navbar a:visited {
+	text-decoration: none;
+    color: #ffffff;
+}
+
+#navbar  a:hover {
+	border-bottom: 3px solid #ffffff;
+	color: #ffffff;
+}
+
+#navbar a:active {
+    border-bottom: 3px solid #f7e5a6;
+    color: #f7e5a6;
+}
+
+/* content */
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* title */
+
+#title {
+	margin-top: -10px;
+	width: 960px;
+}
+
+h1 {
+	float: left;
+	text-transform: lowercase;
+	font-family: 'Source Sans Pro', 'Arial Narrow', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #79cbda;
+}
+
+.titlebar {
+	margin-top: 40px;
+	float: right;
+	width: 750px;
+	height: 15px;
+	background-color: #f7e5a6;
+}
+
+/* form */
+
+form {
+    margin: 0px auto;
+    width: 325px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-family: 'Source Sans Pro', 'Franklin Gothic', Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    color: #79cbda;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input, textarea {
+    background-color: #d9d9d9;
+    border-style: none;
+    font-family: 'Franklin Gothic', Arial, Helvetica, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: Georgia, Palatino, Times, serif;
+    text-transform: lowercase;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.submitbutton {
+    border-style: none;
+    border-radius: 2%;
+    background-color: #f9ec8e;
+    font-family: 'Source Sans Pro', Helvetica, 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 75px;
+    height: 25px;
+    float: right;
+}
+
+/* footer */
+#footer {
+	height: 30px;
+	background-color: #000000;
+}
+
+#footer p{
+	font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+    margin-top: 20px;
+}

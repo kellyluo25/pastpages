@@ -1,0 +1,507 @@
+/*
+tokyo, japan
+Kelly Luo
+(spring 2016 + period 9)
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato|PT+Sans|Playfair+Display|Cookie);
+
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+/* [ nav ] */
+
+nav { 
+	background-color: #505050;
+	width: 100%;
+	height: 60px;
+}
+
+#navcontainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav img {
+	width: 110px;
+	height: 50px;
+	float: left;
+}
+
+nav ul {
+	font-family: 'Open Sans', Calibri, Arial, sans-serif;
+	list-style-type: none;
+	float: right;
+	margin-top: 18px;
+}
+
+nav li {
+	float: left;
+	display: block;
+	color: #ffffff;
+	margin-left: 55px;
+}
+
+nav a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #d63c3c;
+	border-bottom: 4px solid #d63c3c;
+}
+
+nav a:active {
+	color: #ffffff;
+	background-color: #d63c3c;
+}
+
+
+/* [ header elements ] */
+
+h1 {
+	text-transform: lowercase;
+	font-family: Lato, Calibri, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+h2, h3, h5 {
+    text-align: center;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+	background-color: #c64863;
+    letter-spacing: 1px;
+	color: #ffffff;
+	padding: 8px;
+	font-size: 16px;
+	margin: 0 auto;
+	border: 4px dotted #dd5245;
+	width: 50%;
+	margin-bottom: 20px;
+	font-family: 'PT Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #683c58;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid #683c58;
+    padding: 6px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-family: 'PT Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a5d6e1;
+    font-size: 30px;
+    width: 320px;
+    float: right;
+}
+
+h5 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+h6 {
+     font-family: 'PT Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #683c58;
+    text-transform: lowercase;
+    font-size: 20px;
+    text-align: center;
+    width: 270px;
+}
+
+h7 {
+    font-family: 'PT Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a5d6e1;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+    width: 310px;
+    line-height: 40px;
+}
+
+
+h8 {
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #a5d6e1;
+    font-size: 30px;
+    width: 185px;
+    text-transform: lowercase;
+    float: right;
+    line-height: 35px;
+}
+
+/* text effect */
+
+.welcometojapan {
+			font-family: 'Cookie', 'Playfair Display', Georgia, serif;
+            font-size: 90px;
+			transition: text-shadow .5s, color 1.5s;
+			text-shadow: #FF8F66 3px 3px,
+                        #FF8F66 4px 4px;
+			color: #c64863;
+		}
+		
+.welcometojapan:hover{
+			color: #c64863;
+			text-shadow:#FF8F66 3px 3px,
+						#FF8F66 4px 4px,
+						#FF8F66 5px 5px,
+						#FF8F66 6px 6px,
+						#FF8F66 7px 7px,
+						#FF8F66 8px 8px,
+                        #FF8F66 9px 9px;
+		}
+
+.visittokyo {
+    color: #fff;
+    background: linear-gradient(30deg, #c64863 30%, #FFBECF 60%, #683c58 100%);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Cookie', 'Playfair Display', Georgia, serif;
+}
+/* home header */
+
+#homeheader {
+	margin: 0 auto;
+}
+
+#homeheader img{
+	width: 550px;
+	height: 250px;
+	margin: 20px auto 20px auto;
+	display: block;
+}
+
+/* secondary header */
+
+#secondaryheader {
+	margin: 0 auto;
+	width: 100%;
+	height: 460px;
+	margin-bottom: 30px;
+}
+
+#secondaryheader.lcheader {
+     background-image: url(images/lifestyle+culture/lcheader.jpg);
+}
+
+#secondaryheader.fdheader {
+     background-image: url(images/food+drink/fdheader.jpg);
+}
+
+#secondaryheader.lpheader {
+     background-image: url(images/landmarks+places/lpheader.jpg);
+}
+
+#secondaryheader.srheader {
+     background-image: url(images/shopping+recreation/srheader.jpg);
+}
+
+#headercontainer {
+	width: 960px;
+	height: 460px;
+	position: relative;
+}
+
+.headerblurb {
+	width: 490px;
+	position: absolute;
+  	bottom: 0;
+	 right: 0;
+	background-color: rgba(170, 48, 46, 0.5);
+	font-family: Lato, Calibri, Arial, sans-serif;
+	color: #ffffff;
+	padding: 30px;
+}
+
+/* container */
+
+#contentcontainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#lccontent p, #fdcontent p {
+	font-family: Lato, Calibri, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+footer { 
+	background-color: #161614;
+	width: 100%;
+	height: 40px;
+	padding-top: 15px;
+}
+
+footer p {
+	text-transform: lowercase;
+	color: #ffffff;
+	font-family: 'Open Sans', Calibri, Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* background image */
+.homebg { 
+  background: url(images/tokyobg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* [ home ] */
+
+#homecontent {
+	width: 100%;
+	height: 1000px;
+}
+
+#homecontentcontainer {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#homecontentcontainer p {
+    font-family: Lato, Calibri, sans-serif;
+}
+
+.hometokyo {
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 450px;
+	padding: 30px;
+	float: right;
+	margin-top: 675px;
+	color: #ffffff;
+}
+
+#homecontent a:link {
+	color: #d63c3c;
+	text-decoration: none;
+}
+
+#homecontent a:visited {
+	color: #d63c3c;
+}
+
+#homecontent a:hover {
+	color: #d63c3c;
+}
+
+#homecontent a:active {
+	color: #ffffff;
+	background-color: #d63c3c;
+}
+
+/* [ lifestyle + culture ] */
+
+#lccontent {
+	width: 600px;
+	float: left;
+}
+
+.lcimgleft {
+    float: left;
+}
+
+.lcimgright {
+    float: right;
+}
+
+.lcimg {
+    width: 270px;
+    height: 175px
+}
+
+.lcimgcaption {
+    margin-top: 5px;
+    width: 270px;
+    border-top: 8px solid #683c58;
+    padding-top: 2px;
+    font-size: 12px;
+    font-family: 'Playfair Display', Times, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#traveltips {
+    width: 235px;
+    float: right;
+    background-color: #f2f2f2;
+    padding: 40px;
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    font-size: 15px;
+}
+
+ol {
+   padding-left: 25px;
+}
+
+#traveltips li {
+    margin-bottom: 20px;
+}
+
+/* [ landmarks + places ] */
+.lpplace {
+    background-color: #f2f2f2;
+    padding: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lpimg {
+    width: 270px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+
+.lpplace p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Playfair Display', Times, Georgia, serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    width: 270px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.lpmain, .srmain {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lpmainimage, .srmainimage {
+    width: 630px;
+    height: 400px;
+    margin-right: 20px;
+    float: left;
+}
+
+.lpmainimage {
+    margin-bottom: 40px;
+}
+
+.lpmain p, .srmain p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'PT Sans', Arial, Verdana, sans-serif;
+    width: 310px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+/* [ food + drink ] */
+#fdcontent {
+	width: 600px;
+	float: left;
+}
+
+.fdimg {
+    float: left;
+    width: 250px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.fdimgcaption {
+    width: 320px;
+    float: right;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-family: 'Playfair Display', Times, Georgia, serif;
+}
+
+#teaceremony {
+    width: 235px;
+    float: right;
+    background-color: #f2f2f2;
+    padding: 40px;
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+}
+
+#teaceremony p.teaintro {
+    margin-bottom: 30px;
+}
+
+#teaceremony li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+#teaceremony p.teatenets {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Playfair Display', Times, Georgia, serif;
+    
+}
+
+/* [ shopping + recreation ] */
+.srshopping {
+    width: 470px;
+    margin-bottom: 20px;
+}
+
+.srshoppingleft {
+    float: left;
+}
+
+.srshoppingright {
+    float: right;
+}
+
+.srimg {
+    width: 250px;
+    height: 180px;
+    float: left;
+}
+
+.srshopping p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Playfair Display', Times, Georgia, serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    width: 185px;
+    float: right;
+}
+
+.srmainimage {
+    margin-bottom: 20px;
+}
