@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# past pages  
 
-You can use the [editor on GitHub](https://github.com/kellyluo25/pastpages/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+past webpages, finally deployed online (feat. tokyo tourism and all the must-see sights and scenes, the beautiful 2014 musical comedy _begin again_, and a quaint sunday dinner with family) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## [tokyo, japan](https://kellyluo25.github.io/pastpages/tokyo/)  
+all the lifestyle, culture, food + drink, and sightseeing that _tokyo, japan_ has to offer 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [begin again](https://kellyluo25.github.io/pastpages/beginagain/)  
+the 2014 movie _begin again_ is radiant exploration of creativity and character about lost souls who make beautiful music together
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kellyluo25/pastpages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [sunday dinner](https://kellyluo25.github.io/pastpages/sundaydinner/)  
+a thoughtful reflection on a quaint _sunday dinner_ with family with a photographic journey of my below average cooking abilities
