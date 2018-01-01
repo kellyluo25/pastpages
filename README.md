@@ -1,6 +1,6 @@
 # past pages
 
-past webpages, finally deployed online (feat. tokyo tourism, the 2014 movie comedy _begin again_, a visualization of malaria, and a quaint sunday dinner with family) 
+past webpages, finally deployed online (feat. tokyo tourism, the 2014 movie comedy _begin again_, data visualization of malaria, and a quaint sunday dinner with family) 
 
 ## [world malaria report](https://kellyluo25.github.io/pastpages/worldmalaria/)  
 data visualization of the rise and eventual fall of malaria due to the groundbreaking work of the world health organization
