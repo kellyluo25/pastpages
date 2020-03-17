@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: "pastpages"
+description: "pre-2018 pages from kellyluo25"
+plugins:
+  - jekyll-readme-index
