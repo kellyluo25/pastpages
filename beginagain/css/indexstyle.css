@@ -127,7 +127,7 @@ h1 {
 
 .trailer {
 	float: right;
-	width: 425px;
+    text-align: right; 
 }
 
 .trailerbar {
